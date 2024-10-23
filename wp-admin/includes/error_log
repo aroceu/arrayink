@@ -1,0 +1,8 @@
+[21-Feb-2024 00:53:59 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function __() in /home/oceans/dir/arrayink/wp-admin/includes/file.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/oceans/dir/arrayink/wp-admin/includes/file.php on line 16
+[25-Mar-2024 21:09:28 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function __() in /home/oceans/dir/arrayink/wp-admin/includes/file.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/oceans/dir/arrayink/wp-admin/includes/file.php on line 16

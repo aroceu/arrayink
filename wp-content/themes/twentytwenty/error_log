@@ -1,0 +1,32 @@
+[20-Dec-2023 15:47:22 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/oceans/dir/arrayink/wp-content/themes/twentytwenty/404.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/oceans/dir/arrayink/wp-content/themes/twentytwenty/404.php on line 10
+[21-Dec-2023 06:11:23 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/oceans/dir/arrayink/wp-content/themes/twentytwenty/404.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/oceans/dir/arrayink/wp-content/themes/twentytwenty/404.php on line 10
+[04-Jan-2024 01:24:58 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/oceans/dir/arrayink/wp-content/themes/twentytwenty/404.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/oceans/dir/arrayink/wp-content/themes/twentytwenty/404.php on line 10
+[27-Jan-2024 05:27:32 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/oceans/dir/arrayink/wp-content/themes/twentytwenty/404.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/oceans/dir/arrayink/wp-content/themes/twentytwenty/404.php on line 10
+[28-Jan-2024 11:13:43 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/oceans/dir/arrayink/wp-content/themes/twentytwenty/404.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/oceans/dir/arrayink/wp-content/themes/twentytwenty/404.php on line 10
+[14-Feb-2024 03:27:50 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/oceans/dir/arrayink/wp-content/themes/twentytwenty/404.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/oceans/dir/arrayink/wp-content/themes/twentytwenty/404.php on line 10
+[25-Mar-2024 21:06:51 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/oceans/dir/arrayink/wp-content/themes/twentytwenty/404.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/oceans/dir/arrayink/wp-content/themes/twentytwenty/404.php on line 10
+[25-Mar-2024 21:09:51 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/oceans/dir/arrayink/wp-content/themes/twentytwenty/index.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/oceans/dir/arrayink/wp-content/themes/twentytwenty/index.php on line 17

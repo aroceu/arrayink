@@ -1,0 +1,483 @@
+/* 
+Theme Name: BLUE PINK YELLOW
+Theme URI: http://array.ink
+Description: Lesbian energy.
+Version: 1.0
+Author: aroceu
+Author URI: http://aroceu.com
+*/
+
+html{
+}
+
+html, body{
+	min-height: 100%;
+	padding: 0;
+	margin: 0;
+}
+
+body{
+	background: #0cbddd;
+	margin: 0;
+	padding: 0;
+	color: #fff;
+}
+
+body#index{
+	background: #ff0074;
+	min-height: 100vh;
+}
+
+ul{
+	list-style-type: circle;
+}
+
+ul#menu-primary{
+	margin: 0!important;
+	background: #fff;
+	text-align: center;
+	width: 100%;
+	padding-start: 0!important;
+	-webkit-padding-start: 0!important;
+	-moz-padding-start: 0!important;
+	z-index: 9999999;
+}
+
+ul#menu-primary li{
+	display: inline-block;
+	position: relative;
+	list-style-type: none!important;
+	width: 17em;
+	color: #00c0e1;
+}
+
+ul#menu-primary li.current-menu-item{
+	color: #ff0074;
+}
+
+ul#menu-primary li li{
+	color: #fff;
+}
+
+ul#menu-primary li a:link, ul#menu-primary li a:visited{
+	font: normal 1.8em 'Abril Fatface', serif;
+	text-transform: lowercase;
+	text-decoration: none;
+	border-bottom: none!important;
+	color: inherit;
+	display: block;
+	padding-bottom: 0.15em;
+}
+
+ul#menu-primary li:hover{
+	background: #00c0e1;
+	color: #fff;
+}
+
+ul#menu-primary li img.image{
+	height: 30px;
+	vertical-align: middle;
+}
+
+ul#menu-primary ul {
+    display: none;
+    position: absolute;
+    left: 0;
+    z-index: 99999;
+    width: auto;
+    background:  #00c0e1;
+    padding-inline-start: 0!important;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+
+ul#menu-primary ul li:last-child{
+	border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+
+ul#menu-primary li:hover > ul, ul #menu-primary li > ul li a:hover {
+    display: block;
+}
+
+ul#menu-primary li li:hover{
+	background: #00c0e1;
+	color: #ffdf00;
+}
+
+#container{
+	background: #ff0074;
+}
+
+#pagetype #container{
+	padding: 5em 0 0;
+}
+
+#head{
+	background: url('banner.png') center no-repeat;
+	background-size: 62em;
+	height: 27em;
+}
+
+#desc{
+	font: normal 140%/170% 'Gloria Hallelujah', sans-serif;
+    margin: 0 auto;
+    width: 30em;
+    text-align: justify;
+}
+
+#social{
+	font-size: 300%;
+    width: 12.5em;
+    margin: 1em auto 0;
+    text-align: center;
+}
+
+#social a:link, #social a:visited{
+	color: #fff;
+	border-bottom: none;
+}
+
+#social a:hover{
+	color: #00c0e1;
+	border-bottom: none;
+}
+
+#social ul{
+	list-style-type: none;
+	padding-inline-start: 0px!important;
+	-webkit-padding-inline-start: 0px!important;
+	-moz-padding-inline-start: 0px!important;
+}
+
+#social ul li{
+	display: inline-block;
+	margin: 0 0.3em;
+}
+
+
+#page{
+	width: 50em;
+    margin: 0em auto;
+    background: #fff;
+    color: #222;
+    border-radius: 30px;
+    font: normal 1.2em 'Open Sans', sans-serif;
+    padding: 0.1em 1em 1em;
+}
+
+h1{
+	display: none;
+}
+
+h2{
+	font: normal 200% 'Gloria Hallelujah';
+    color: #00c0e1;
+    border-top: dotted rgb(255,223,0) 10px;
+    text-align: center;
+    border-bottom: dotted #ff0074 10px;
+}
+
+h3{
+	font: normal 160% 'Abril Fatface', serif;
+    margin: 0;
+    text-align: center;
+    color: #00c0e1;
+}
+
+h3:first-letter{
+	color: #ff0074;
+}
+
+h4{
+	font: normal 130% 'Abril Fatface', serif;
+	color: #ffdf2d;
+	margin: 0;
+	padding: 0;
+}
+
+h4:first-letter{
+	color: #ff2b75;
+}
+
+ul.ranks{
+	list-style-type: none;
+    padding-inline-start: 0!important;
+    background: #ffdf00;
+    width: 75%;
+    margin: 1em auto;
+    border-radius: 30px;
+}
+
+ul.ranks li{
+	 font: normal 120% 'Gloria Hallelujah';
+    color: #ff0074;
+    text-align: center;
+    margin: 0 auto;
+}
+
+ul.ranks li em{
+	color: #fff;
+    text-shadow: #ff0074 0.08em 0.08em 0;
+}
+
+b, strong{
+	color: #ff0074;
+}
+
+a:link, a:visited{
+	color: #00c0e1;
+	font-weight: bold;
+	border-bottom: 1px solid #00c0e1;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+a:hover{
+	color:#ffdf00;
+	border-bottom: 1px solid #ffdf00;
+}
+
+.wp-block-image.is-resized{
+	display: block!important;
+}
+
+figure{
+	margin-block-start: 0em;
+    margin-block-end: 0em;
+}
+
+a.abt{
+	border-bottom: none;
+}
+
+a.abt img{
+	width: 40%;
+	height: auto;
+}
+
+.wp-block-image img.about{
+    height: 250px!important;
+    padding: 0 10px 10px 0;
+}
+
+ul.ranks{
+	list-style-type: none;
+    padding-inline-start: 0!important;
+}
+
+#footer{
+	color: #fff;
+	font: normal 120%/150% 'Gloria Hallelujah';
+	padding: 2em;
+}
+
+#footer ul{
+	margin-block-start: 0!important;
+    margin-block-end: 0!important;
+    list-style-type: none;
+    padding-inline-start: 0px;
+}
+
+#footer ul li a:link, #footer ul li a:visited{
+	display: block;
+	padding: 0.2em;
+}
+
+#footer ul li a:hover{
+	color: #ff0074;
+	border-radius: 10px;
+	background: #ffdf00;
+}
+
+#footer a:link, #footer a:visited{
+	color: #fff;
+	border-bottom: none;
+}
+
+#footer a:hover{
+	color: #ffdf00;
+}
+
+#footer .box{
+	float: left;
+    width: 22%;
+    margin: 4em 1% 2em;
+}
+
+#footer .box:last-child{
+	float: right;
+	text-align: right;
+}
+
+ul#ytseries a:link, ul#ytseries a:visited{
+	font-weight: normal;
+}
+
+ul#ytseries li a:link, ul#ytseries li a:visited{
+	display: inline-block;
+}
+
+ul#ytseries li a:hover, ul#ytseries li a:active{
+	background: inherit;
+	color: #ffdf2d;
+}
+
+ul#ytseries li:before{
+	content: '» ';
+}
+
+ul#ytseries li:hover:before{
+	color: #ff2b75;
+}
+
+img.games{
+	width: 32%;
+}
+
+img.mobileheader{
+	display: none;
+}
+
+.arrowpic, .raepic{
+	float: left!important;
+}
+
+.arrowpic img{
+	margin: 0 0px 20px 12em;
+}
+
+.raepic img{
+	margin: 0 30px 20px 7em;
+}
+
+.mobile{
+	display: none;
+}
+
+
+/* mobile */
+
+@media only screen and (max-width: 960px) and (min-width: 0px) {
+
+html {
+-webkit-text-size-adjust: none;
+}
+	
+	#index{
+	
+	}
+	
+	#top{
+		display: none;
+	}
+	
+	#mobiletop{
+	display: block;
+    font: normal 200% 'PT Mono', monospace;
+    text-transform: uppercase;
+    border-bottom: 2px solid #222;
+    margin: 1em 0.75em;
+    padding-bottom: 0.5em;
+	}
+	
+	#nav{
+		padding-bottom: 1em;
+	}
+	
+	#header{
+		margin: 15% 0;
+		font-size: 170%;
+	}
+
+
+	.sub-menu{
+		display: none!important;
+	}
+
+	ul#menu-primary li{
+		width: 100%;
+	}
+
+	ul#menu-primary li a:link, ul#menu-primary li a:visited{
+		font-size: 1.2em;
+	}
+
+	#head{
+		background-size: 45em;
+		height: 20em;
+	}
+
+	#desc, #social{
+		width: 90%;
+	}
+
+	#desc{
+		font-size: 100%;
+	}
+
+	#social{
+		font-size: 150%;
+	}
+
+	#page{
+		width: 90%;
+		padding: 0.1em 3% 3%;
+		font: normal 1em 'Open Sans', sans-serif;
+	}
+
+	#pagetype #container{
+		padding-top: 3%;
+	}
+
+	.wp-image-45{
+		display: none;
+	}
+
+	img.desktopheader{
+	display: none;
+	}
+
+	img.mobileheader{
+		display: block;
+	}
+
+	a.abt img{
+		display: block;
+		width: 70%;
+	}
+
+	#footer{
+		padding: 3%;
+	}
+
+	#footer .box{
+		display: none;
+		margin: 3% 1% 1%;
+	}
+
+	#footer .box:last-child{
+	    display: block!important;
+    width: auto;
+    font-size: 70%;
+    text-align: center;
+		}
+
+	.profilepic{
+		float: none;
+	}
+
+	.profilepic img{
+		margin: auto;
+	}
+
+	table.desktop{
+		display: none;
+	}
+
+	.mobile{
+		display: block;
+	}
+
+}
+ 
