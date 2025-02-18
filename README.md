@@ -5,7 +5,7 @@ This website would have functioned as the website for any sort of ambitious web 
 
 I did not import just the theme though, as I think keeping track of the plugins I had used to make this run-on-Wordpress website operate the way that it did quite fun. There are graphics (that I made), art (that we commissioned), no blog posts, and a lightweight amount of information. It's Splatoon themed, because we really bonded over Splatoon 2 shortly after it came out, so it made sense. There was virtually very little traffic, but I think the fact that I started our FAQ with "Are you dating?" (No.) is probably the funniest thing about the website.
 
-It will be retired in November of 2024.
+It was retired in November 2024.
 
 # Pages
 
